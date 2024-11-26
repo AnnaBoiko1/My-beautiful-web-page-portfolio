@@ -1,5 +1,6 @@
 
-  "date": "2024-11-26T04:27:05.944Z",
+{
+  "date": "2024-11-26T04:46:07.832Z",
 
   "preset": "nitro-dev",
   "framework": {
@@ -12,7 +13,7 @@
   "dev": {
     "pid": 75884,
     "workerAddress": {
-      "socketPath": "/var/folders/9y/nn4253bs5h76tl2kmnh2tbzm0000gp/T/nitro/worker-75884-1.sock"
+      "socketPath": "/var/folders/9y/nn4253bs5h76tl2kmnh2tbzm0000gp/T/nitro/worker-75884-3.sock"
     }
   }
 }
