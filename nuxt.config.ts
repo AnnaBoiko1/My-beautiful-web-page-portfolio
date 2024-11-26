@@ -12,7 +12,15 @@ export default defineNuxtConfig({
 
     preset: 'vercel-edge',
 
-  }
-
+  },
+  css: [
+    'bootstrap/dist/css/bootstrap.min.css', // Додаємо стилі Bootstrap
+    '@/assets/styles/main.scss',
+    '@fortawesome/fontawesome-svg-core/styles.css'
+  ],
+  plugins: [
+    '~/plugins/bootstrap.js', // Додаємо плагін для JS Bootstrap
+    '~/plugins/fontawesome.js', // Додаємо плагін для FontAwesome
+  ],
 
 })

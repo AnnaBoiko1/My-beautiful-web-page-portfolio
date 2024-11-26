@@ -64,3 +64,6 @@ button {
     margin: 0 5px;
 }
 </style>
+<style lang="scss">
+@import "@/assets/styles/main.scss";
+</style>

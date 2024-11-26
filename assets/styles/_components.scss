@@ -1,0 +1,73 @@
+// Стилі для компонентів (кнопки, картки)
+.big--button {
+  background-color: $white;
+  color: $frames-color;
+  padding: 10px 20px;
+  border: 3px solid $frames-color;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 80%;
+  font-size: 2em;
+  font-weight: bold;
+  margin: 35px 0;
+
+  &:hover {
+    background-color: darken($fill-in-color, 10%);
+  }
+}
+
+.line {
+  width: 15%;
+  height: 3px;
+  background-color: $fill-in-color;
+  border-radius: 5px;
+}
+
+.findme {
+  font-size: 2vw;
+  font-weight: 900;
+  margin-left: 22%;
+  color: $primary-color;
+}
+
+.icon {
+  font-size: 3vw;
+  margin-left: 4%;
+  color: $frames-color;
+}
+
+.icon:hover {
+  color: $frames-color-hover;
+}
+
+.icons {
+margin-right: 22%;
+}
+
+.hireMe {
+  position: fixed;
+  /* Закріплює кнопку в певному положенні на екрані */
+  bottom: 20px;
+  /* Відступ від нижнього краю екрану */
+  right: 20px;
+  /* Відступ від правого краю екрану */
+  z-index: 1000;
+  /* Високий індекс для відображення поверх інших елементів */
+}
+.hireMe button {
+display: flex; /* Для розміщення іконки та тексту на одній лінії */
+align-items: center; /* Вирівнювання по центру вертикалі */
+color: primary-color; /* Колір тексту */
+border: none; /* Без рамки */
+padding: 10px 20px; /* Внутрішні відступи */
+border-radius: 5px; /* Закруглені кути */
+cursor: pointer; /* Іконка "руки" при наведенні */
+font-size: 16px; /* Розмір тексту */
+}
+.hireMe button:hover {
+background-color: #0056b3; /* Темніший синій при наведенні */
+}
+
+.hireMe button font-awesome-icon {
+margin-right: 10px; /* Відступ між іконкою та текстом */
+}

@@ -72,7 +72,7 @@ onUnmounted(() => {
 </script>
 
 <template>
-    <div data-cal-link="annaboiko/30min" data-cal-namespace="30min" data-cal-config='{"layout":"month_view"}'>
-        button
+    <div class="big--button" data-cal-link="annaboiko/30min" data-cal-namespace="30min" data-cal-config='{"layout":"month_view"}'>
+      Schedule an Appointment
     </div>
 </template>

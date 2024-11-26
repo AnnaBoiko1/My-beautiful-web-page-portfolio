@@ -1,0 +1,8 @@
+// Розташування (контейнери, сітки)
+.container {
+  width: 80%;
+  margin: 0 auto;
+  @include responsive(768px) {
+    width: 95%;
+  }
+}

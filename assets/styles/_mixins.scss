@@ -1,0 +1,16 @@
+// Міксіни (повторювані шаблони стилів)
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin responsive($breakpoint) {
+  @media (max-width: $breakpoint) {
+    @content;
+  }
+}
+
+.violet {
+  color: $frames-color;
+}

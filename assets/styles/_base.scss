@@ -1,0 +1,13 @@
+// Базові стилі (наприклад, для body, заголовків)
+body {
+  font-family: $font-stack;
+}
+
+h1, h2, h3 {
+  color: $primary-color;
+}
+
+h1 {
+  font-size: 2.4em;
+  font-weight: 900;
+}
