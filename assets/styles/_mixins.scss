@@ -1,4 +1,7 @@
 // Міксіни (повторювані шаблони стилів)
+@use 'variables';
+
+
 @mixin flex-center {
   display: flex;
   justify-content: center;
@@ -12,5 +15,5 @@
 }
 
 .violet {
-  color: $frames-color;
+  color: variables.$frames-color;
 }
