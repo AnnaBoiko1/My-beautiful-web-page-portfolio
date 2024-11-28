@@ -5,6 +5,7 @@
             <button @click="setLocale('fr')">FR</button>
             <button @click="setLocale('ua')">UA</button>
             <button @click="setLocale('de')">DE</button>
+            <button @click="setLocale('nl')">NL</button>
         </div>
         <router-link to="/">{{ $t("message.home") }}</router-link> |
         <router-link to="/about">{{ $t("message.about") }}</router-link> |
@@ -65,5 +66,5 @@ button {
 }
 </style>
 <style lang="scss">
-@import "@/assets/styles/main.scss";
+@use "@/assets/styles/main.scss";
 </style>

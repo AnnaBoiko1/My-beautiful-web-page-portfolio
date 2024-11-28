@@ -2,7 +2,7 @@
     <div class="hireMe">
       <button @click="hireMe">
         {{ $t("message.hire") }} </button>
-        <font-awesome-icon :icon="['far', 'comment-dots']" />
+        <FontAwesomeIcon :icon="['far', 'comment-dots']" />
     </div>
 </template>
 

@@ -19,8 +19,10 @@ export default defineNuxtConfig({
     '@fortawesome/fontawesome-svg-core/styles.css'
   ],
   plugins: [
-    '~/plugins/bootstrap.js', // Додаємо плагін для JS Bootstrap
-    '~/plugins/fontawesome.js', // Додаємо плагін для FontAwesome
+    { src: '~/plugins/bootstrap.js', mode: 'client' }, // Додаємо плагін для JS Bootstrap
+    '~/plugins/font-awesome.ts',
+    { src: '~/plugins/font-awesome.ts', mode: 'client'},
+
   ],
 
 })

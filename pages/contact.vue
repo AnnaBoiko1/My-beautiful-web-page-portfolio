@@ -14,7 +14,7 @@
           <div class="icons">
             <div class="d-flex justify-content-center me-5">
               <a href="https://github.com/AnnaBoiko1" target="_blank" class="icon">
-                <FontAwesomeIcon :icon="['fab', 'github']" />
+                <font-awesome-icon :icon="['fab', 'github']" />
               </a>
               <a href="https://www.linkedin.com/in/anna-boiko1//" target="_blank" class="icon">
                 <FontAwesomeIcon :icon="['fab', 'linkedin']" />
@@ -38,7 +38,7 @@ import HireMe from "@/components/HireMe.vue";
 import CalendarReservation from "@/components/CalendarReservation.vue";
 </script>
 <style lang="scss">
-@import "@/assets/styles/main.scss";
+//@use "@variables";
 
 // .contact{
 //  // background-color: $primary-color; // Приклад використання SCSS-змінної
