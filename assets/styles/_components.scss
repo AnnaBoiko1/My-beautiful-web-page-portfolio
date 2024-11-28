@@ -60,7 +60,7 @@ margin-right: 22%;
 .hireMe button {
 display: flex; /* Для розміщення іконки та тексту на одній лінії */
 align-items: center; /* Вирівнювання по центру вертикалі */
-color: primary-color; /* Колір тексту */
+color: variables.$primary-color; /* Колір тексту */
 border: none; /* Без рамки */
 padding: 10px 20px; /* Внутрішні відступи */
 border-radius: 5px; /* Закруглені кути */
