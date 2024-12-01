@@ -1,0 +1,15 @@
+// Базові стилі (наприклад, для body, заголовків)
+@use 'variables';
+
+body {
+  font-family: variables.$font-stack;
+}
+
+h1, h2, h3 {
+  color: variables.$primary-color;
+}
+
+h1 {
+  font-size: 2.4em;
+  font-weight: 900;
+}

@@ -1,0 +1,10 @@
+// Розташування (контейнери, сітки)
+@use 'mixins';
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  @include mixins.responsive(768px) {
+    width: 95%;
+  }
+}
